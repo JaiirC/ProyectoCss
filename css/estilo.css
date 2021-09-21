@@ -8,29 +8,31 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    background: rgb(248,194,255);
+    background: linear-gradient(180deg, rgba(248,194,255,1) 39%, rgba(212,55,232,1) 100%);
     align-items: center;
 }
 
 
 .title{
-    font-family: Impact;
-    color: blueviolet;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(211, 43, 226);
     margin-bottom: 5mm;
 }
 .title2{
-    font-family:  sans-serif;
-    font-size: 1cm;
-    color: blueviolet;
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    color: rgb(211, 43, 226);
+    margin-bottom: 5mm;
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     height: 480px;
     display: flex;
-    background: #6a3093;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #6a3093; 
+    background: -webkit-linear-gradient(to bottom, #a044ff, #6a3093);  
+    background: linear-gradient(to bottom, #a044ff, #6a3093); 
     align-items: center;
     border-radius: 10px;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.2);
@@ -46,7 +48,7 @@ body{
     justify-content: center;
 }
 .container .card{
-    padding: auto;
+    
     width: 280px;
     height: 330px;
     border-radius: 9px;
@@ -56,18 +58,22 @@ body{
 }
 
 .container .card-central p{
+    font-family: 'Roboto';
     margin-bottom: 5mm;
     padding: 0 1.5rem;
     text-align: justify;
     font-size: 18px;
     font-weight: 300;
+    color: rgb(78, 78, 78);
 }
 .container .card p{
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 5mm;
     padding: 0 1.5rem;
     text-align: justify;
     font-size: 16px;
     font-weight: 300;
+    color: rgb(78, 78, 78);
 }
 .container .card img{
     margin-top: 5mm;
